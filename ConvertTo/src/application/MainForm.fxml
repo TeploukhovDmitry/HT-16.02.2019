@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="644.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainFormController">
+   <children>
+      <TextField fx:id="numberTextField" layoutX="243.0" layoutY="112.0" promptText="Введите число" />
+      <Text fx:id="resultText" fill="#290070" layoutX="204.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="227.13671875">
+         <font>
+            <Font size="36.0" />
+         </font></Text>
+      <Button fx:id="tohexButton" layoutX="170.0" layoutY="232.0" mnemonicParsing="false" onAction="#tohexButtonClick" prefHeight="61.0" prefWidth="73.0" text="To hex" />
+      <Button fx:id="tooctButton" layoutX="392.0" layoutY="232.0" mnemonicParsing="false" onAction="#tooctButtonClick" prefHeight="61.0" prefWidth="73.0" text="To oct" />
+   </children>
+</AnchorPane>
